@@ -1,0 +1,51 @@
+main {
+  width: 1000px;
+  height: 800px;
+  background-color: aquamarine;
+}
+
+main1 {
+  width: 1000px;
+  height: 60px;
+}
+
+main2 {
+  width: 800px;
+  height: 740px;
+  float: left;
+  padding-left: 200px;
+}
+
+d1 {
+  width: 1000px;
+  height: 20px;
+}
+
+d2 {
+  width: 1000px;
+  height: 40px;
+}
+
+dd1 {
+  width: 200px;
+  height: 40px;
+  float: left;
+}
+
+dd2 {
+  width: 600px;
+  height: 25px;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  font-family: Lucida;
+  font-weight: bold;
+  border: double 4px gray;
+  padding-top: 10px;
+}
+
+dd3 {
+  width: 200px;
+  height: 40px;
+  float: left;
+}/*# sourceMappingURL=style.css.map */

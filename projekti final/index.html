@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="d1"></div>
+            <div class="d2"> 
+                <div class="dd1"></div>
+                <div class="dd2">Student Registration Form </div>
+                <div class="dd3"></div>
+            </div>
+        </div>
+        <div class="main2">
+            <form> 
+                <label for="fullname" style="padding-right: 100px;">Name</label>
+                <input type="text" name="fullname" placeholder="Enter Full Name" required>
+                <br>
+                <br>
+                <label for="fathername" style="padding-right: 46px;">Father's Name</label>
+                <input type="text" name="fathername" required>
+                 <br>
+                 <br>
+                 <label for="Mother's Name" style="padding-right: 40px;"> Mother's Name</label>  
+                 <input type="text" name="mothername" required>
+                 <br>
+                 <br>
+                 <label for="Phone Number" style="padding-right: 42px;"></label>
+                 <select required>
+                    <option>+95</option>
+                    <option>+93</option>
+                    <option>+55</option>
+                    <option>+56</option>
+                    <option>+86</option>
+                    <option>+57</option>
+                    <option>+506</option>
+                    <option>+45</option>
+                    <option>+20</option>
+                    <option>+251</option>
+                    <option>+241</option>
+                    <option>+49</option>
+                    <option>+30</option>               
+                 </select>
+                 <input type="teL" name="phnumbre" maxlength="10" required>
+                 <br>
+                 <br>
+                 <label for="Email" style="padding-right:100px;">Email</label>
+                 <input type="email" name="Email" placeholder="Sample@example.com" required>
+                 <br>
+                 <br>
+                 <label for="Gender" style="padding-right: 86px;">Gender</label>
+                 <input type="radio" name="Gender" required>Male
+                 <input type="radio" name="Gender" required>Female
+                 <br>
+                 <br>
+                 <label for="DOB" style="padding-right:50px ;">Date Of Birth </label>
+                 <input type="date" name="DOB" required>
+                 <br>
+                 <br>
+                 <label for="Address"  style="padding-right:86px ;">Address</label>
+                 <input type="text" name="streetAddress" placeholder="Road name,Area,Colony" style="width:300px ;" required>
+                 <br>
+                 <br>
+                 <label style="padding-right:146px ;"></label>
+                 <input type="text" name="District" placeholder="District" style="width: 145px;" required>
+                 <input type="text" name="State" placeholder="State" style="width: 145px;" required>
+                 <br>
+                 <br>
+                 <label style="padding-right:146px ;"></label>
+                 <input type="text" name="pincod" placeholder="Pincod" style="width:145px ;" required>
+                 <select style="width: 152px; height: 21px; ;" required>
+                    <option>Select contry</option>
+                    <option>Germany</option>
+                    <option>France</option>
+                    <option>Norway</option>
+                    <option>Finland</option>
+                    <option>Austria</option>
+                    <option>Poland</option>
+                    <option>Albania</option>
+                    <option>Spain</option>
+                    <option>Turkey</option>
+                    <option>Romania</option>
+                    <option>Bulgaria</option>
+                    <option>Italy</option>
+                    <option>Greece</option>
+                    <option>Hungary</option>
+                    <option>Sweden</option>
+                    <option>Kosovo</option>
+                </select>
+                <br>
+                <br>
+                <label for="Blood Group" style="padding-right:54px ;">Blood Group</label>
+                <select name="Bloodgroup" style="height:21px;">
+                <option>Select</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                </select>
+                <br>
+                <br>
+                <label for="course" style="padding-right:92px ;">Course</label>
+                <select name="course" style="height:21px ;" required>
+                 <option>Select</option>
+                 <option>BTech(CSE)</option>   
+                 <option>BTech-CSE(AI+ML+DL)</option>      
+                 <option>BTech-CSE(TCS)</option>   
+                 <option>BTech-CSE(IMB)</option>   
+                 <option>BTech(EEE)</option>   
+                 <option>BCA</option>   
+                </select>
+                <br>
+                <br>
+                <label for="Hobbies" style="padding-right:81px ;">Hobbies</label>
+                <input type="checkbox" name="Hobbies[]">Drawing
+                <input type="checkbox" name="Hobbies[]">Singing
+                <input type="checkbox" name="Hobbies[]">Dancing
+                <input type="checkbox" name="Hobbies[]">Sketching
+                <br>
+                <br>
+                <label for="Hobbies" style="padding-right: 142px;"></label>
+                <input type="checkbox" name="Hobbies[]">Others
+                <input type="text" name="Hobbies" maxlength="50" placeholder="Ex-Teaching">(Max 50 Characters)
+                <br>
+                <br>
+                <label for="Photo" style="padding-right:100px ;">Photo </label>
+                <input type="file" name="photo" required>
+                <br>
+                <br>
+                <br>
+                <br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
